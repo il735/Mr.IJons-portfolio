@@ -121,8 +121,12 @@ h1, h2, h3, h4, h5, h6{
 
 .menu-tel{
   padding: 8px 16px;
-  background-color: #00BAFC;
+  background-color: #aaeb14;
   border-radius: 5px;
+  color: rgb(247, 0, 0);
+}
+.menu-tel:hover{
+  background-color: tomato;
   color: #fff;
 }
 
@@ -151,6 +155,7 @@ h1, h2, h3, h4, h5, h6{
 .projects-list-item1{
   margin-right: 70px;
   margin-bottom: 48px;
+  background-color: lawngreen;
 }
 .projects-list-item2{
   margin-right: 70px;
@@ -161,25 +166,33 @@ h1, h2, h3, h4, h5, h6{
 }
 .projects-list-item4{
   margin-right: 70px;
+  margin-bottom: 48px;
 }
 .projects-list-item5{
   margin-right: 70px;
+  margin-bottom: 48px;
 }
+.projects-list-item6{
+  margin-bottom: 48px;
+}
+
+/* .projects-list-link1{
+} */
 
 
 .projects-list-link1::before{
   content: "";
   display: block;
-  background-image: url(../optimized-images/website-illustration.png);
+  background-image: url();
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: 203px 130px;
   width: 203px;
   height: 130px;
 }
 .projects-list-link2::before{
   content: "";
   display: block;
-  background-image: url(../optimized-images/bot-illustration.png);
+  background-image: url(../img/bookmark.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 203px;
@@ -213,6 +226,15 @@ h1, h2, h3, h4, h5, h6{
   height: 130px;
 }
 .projects-list-link6::before{
+  content: "";
+  display: block;
+  background-image: url(../optimized-images/crm-illustration.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 203px;
+  height: 130px;
+}
+.projects-list-link7::before{
   content: "";
   display: block;
   background-image: url(../optimized-images/crm-illustration.png);
